@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <!-- BootStrap CSS CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!-- CSS File -->
+    <link rel="stylesheet" href="./dist/css/style.css" />
+
+    <title>
+      Frontend Mentor | Huddle landing page with alternating feature blocks
+    </title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <header class="w-100">
+      <nav class="navbar">
+        <div class="container-fluid p-2 m-3">
+          <a href="#" class="navbar-brand">
+            <img
+              src="./images/logo.svg"
+              alt="huddle word attached to chat window"
+              class="img-fluid"
+            />
+          </a>
+          <button
+            type="button"
+            class="btn try-btn rounded-5 shadow justify-content-evenly p-2 text-capitalize"
+          >
+            Try it free
+          </button>
+        </div>
+      </nav>
+      <div class="intro d-flex flex-column flex-lg-row">
+        <div class="details">
+         <div class="content text-center text-lg-start">
+          <h1>Build The Community <br> Your Fans Will Love</h1>
+          <p>
+            Huddle re-imagines the way we build communities. You have a voice,
+            but so does your audience. Create connections with your users as you
+            engage in genuine discussion.
+          </p>
+          <button
+            type="button"
+            class="btn get-started p-3 border-0 shadow rounded-5"
+          >
+            Get Started For Free
+          </button>
+         </div>
+        </div>
+       <div class="image ">
+        <img src="./images/illustration-mockups.svg" alt="illustration of desktop and mobile screens beside each others" class="img-fluid mt-4 mt-lg-0">
+       </div>
+      </div>
+    </header>
+    <main class="w-100">
+      <section id="privileges" class="position-relative">
+       
+        <div class="inner-content"></div>
+        <article id="grow" class="shadow border border-3 border-secondary-subtle rounded-3 ">
+         <div class="article d-flex flex-column flex-lg-row align-items-baseline">
+          <div class="article-para text-center text-lg-start">
+            <h3>Grow Together</h3>
+              <p>Generate meaningful discussions with your audience and build a strong, loyal community. 
+                Think of the insightful conversations you miss out on with a feedback form. </p>
+          </div>
+          <div class="article-image">
+            <img src="./images/illustration-grow-together.svg" alt="illustration of man and a woman and between them several profile cards" class="img-fluid">
+          </div>
+         </div>
+        </article>
+        <article id="conversations" class="shadow border border-3 border-secondary-subtle rounded-3">
+          <div class="article d-flex flex-column flex-lg-row align-items-baseline">
+            <div class="article-para text-center text-lg-start">
+              <h3>Flowing Conversations</h3>
+              <p>You wouldn't paginate a conversation in real life, so why do it online? Our threads have 
+                just-in-time loading for a more natural flow. </p>
+            </div>
+            <div class="article-image">
+              <img src="./images/illustration-flowing-conversation.svg"alt="illustration of people sitting on their chairs talking together" class="img-fluid">
+            </div>
+           </div>
+        </article>
+        <article id="users" class="shadow border border-3 border-secondary-subtle rounded-3">
+          <div class="article d-flex flex-column flex-lg-row align-items-baseline">
+            <div class="article-para text-center text-lg-start">
+              <h3>Your Users</h3>
+              <p> 
+                It takes no time at all to integrate Huddle with your app's authentication solution. This means, 
+                once signed in to your app, your users can start chatting immediately. </p>
+            </div>
+            <div class="article-image">
+              <img src="./images/illustration-your-users.svg" alt="illustration of three people everyone of them holding a chat window" class="img-fluid">
+
+            </div>
+           </div>
+        </article>
+      </section>
+    </main>
+    <footer class="w-100 position-relative">
+      <div class="ready position-absolute rounded-3 shadow text-center">
+        <h2 class="mb-5">Ready To Build Your Community?</h2>
+        <button
+          type="button"
+          class="btn get-started p-3 border-0 shadow rounded-5"
+        >
+          Get Started For Free
+        </button>
+      </div> 
+      <div class="footer-grid mt-5">
+        <div class="row w-100 m-0 align-content-between align-items-center">
+          <div class="col-12 col-md-6 col-lg-3">
+            <a href="#" class="navbar-brand">
+              <img
+                src="./images/logo.svg"
+                alt="huddle word attached to chat window"
+                class="img-fluid"
+              />
+            </a>
+            <aside class="mt-4">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+                nulla quam, hendrerit lacinia vestibulum a, ultrices quis sem.
+              </p>
+              <p>
+                <span class="me-3"
+                  ><img src="./images/icon-phone.svg" alt="phone icon" /></span
+                >Phone: +1-543-123-4567
+              </p>
+              <p>
+                <span class="me-3"
+                  ><img src="./images/icon-email.svg" alt="email icon" /></span
+                >example@huddle.com
+              </p>
+            </aside>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <ul class="list-group page-links border-0 p-3">
+              <li class="list-group-item border-0 bg-transparent">
+                <a
+                  href="#"
+                  class="link-offset-2 link-underline-light link-underline-opacity-0"
+                  >About Us</a
+                >
+              </li>
+              <li class="list-group-item border-0 bg-transparent">
+                <a
+                  href="#"
+                  class="link-offset-2 link-underline-light link-underline-opacity-0"
+                  >What We Do</a
+                >
+              </li>
+              <li class="list-group-item border-0 bg-transparent">
+                <a
+                  href="#"
+                  class="link-offset-2 link-underline-light link-underline-opacity-0"
+                  >FAQ</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <ul class="list-group page-links border-0 p-3">
+              <li class="list-group-item border-0 bg-transparent">
+                <a
+                  href="#"
+                  class="link-offset-2 link-underline-light link-underline-opacity-0"
+                  >Career</a
+                >
+              </li>
+              <li class="list-group-item border-0 bg-transparent">
+                <a
+                  href="#"
+                  class="link-offset-2 link-underline-light link-underline-opacity-0"
+                  >Blog</a
+                >
+              </li>
+              <li class="list-group-item border-0 bg-transparent">
+                <a
+                  href="#"
+                  class="link-offset-2 link-underline-light link-underline-opacity-0"
+                  >Contact Us</a
+                >                 
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div
+              class="social-links d-flex align-items-center justify-content-start w-25 ms-3"
+            >
+              <div class="icon flex-fill p-2">
+                <img
+                  src="./images/logo-facebook.svg"
+                  alt="facebook-icon"
+                  class="facebook"
+                />
+              </div>
+              <div class="icon flex-fill p-2">
+                <img
+                  src="./images/logo-twitter.svg"
+                  alt="facebook-icon"
+                  class="twitter"
+                />
+              </div>
+              <div class="icon flex-fill p-2">
+               
+                <img
+                src="./images/logo-instagram.svg"
+                alt="instagram-icon"
+                class="instagram"
+              />
+              </div>
+            </div>
+            <p class="mt-5">&copy; Copyright 2018 Huddle. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Naglaa Raslan</a>.
+      </p>
+    </footer>
+    <!-- BootStrap JS CDN -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      const links = document.querySelectorAll(".page-links a");
+      links.forEach((link)=>{
+        link.addEventListener("mouseover",()=>{
+          link.classList.remove('link-underline-opacity-0');
+        });
+        link.addEventListener("mouseout",()=>{
+          link.classList.add('link-underline-opacity-0');
+
+        });
+      })
+    </script>
+  </body>
+</html>
